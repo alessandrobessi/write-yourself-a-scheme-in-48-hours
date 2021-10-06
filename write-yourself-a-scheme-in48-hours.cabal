@@ -21,6 +21,7 @@ executable write-yourself-a-scheme-in48-hours
   -- other-modules:
   -- other-extensions:
   build-depends:       base >=4.12 && <4.13,
-                       parsec
+                       parsec,
+                       mtl
   -- hs-source-dirs:
   default-language:    Haskell2010
